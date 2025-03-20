@@ -1,0 +1,9 @@
+{
+  "attack": "attack",
+  "target_model": "final_model.pth",
+  "method": "original",
+  "model": "ncf",
+  "dataset_path": "data/datasets/",
+  "dataset": "ml-100k",
+  "device": "cuda:0"
+}

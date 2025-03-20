@@ -1,0 +1,15 @@
+{
+  "target_model": "final_model.pth",
+  "method": "original",
+  "model": "ncf",
+  "lr": 0.001,
+  "batch_size": 256,
+  "epochs": 25,
+  "dataset_path": "data/datasets/",
+  "dataset": "ml-100k",
+  "num_ng": 4,
+  "test_num_ng": 99,
+  "device": "cuda:0",
+  "au_trade_off": 1e-6,
+  "retrain_trade_off": 1
+}
